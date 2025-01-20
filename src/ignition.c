@@ -13,7 +13,7 @@
 // ----------------------------------------------------------------
 
 // ---
-
+#include "include/ignition.h"
 // ---
 
 // ----------------------------------------------------------------
@@ -24,9 +24,8 @@
 // --------------------------------
 // Ignition || src/ignition.c <-> include/ignition.h
 //
-// Handles both Ignition: Boot and Ignition: Init systems. This
-// is only the parent codebase, the implementation logic can be found
-// under src/modules
+// Parent codebase for Ignition: Boot and Ignition: Init systems.
+// Implementation details are located in src/modules.
 //
 // @author @MaxineToTheStars <https://github.com/MaxineToTheStars>
 // ----------------------------------------------------------------
